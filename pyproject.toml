@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "measuring-frames"
+version = "0.1.0"
+description = ""
+authors = ["Ricklon <rick.rickanderson@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.38.0"
+pillow = "^10.4.0"
+pandas = "^2.2.3"
+matplotlib = "^3.9.2"
+ollama = "^0.3.3"
+ffmpeg-python = "^0.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
